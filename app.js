@@ -10,7 +10,7 @@ app.use(express.static("Public"));
 
 app.get("/",function(req,res){
 
-  res.sendFile(__dirname+"/Signup.html")
+  res.sendFile(__dirname+"/signup.html")
 })
 
 // 7b46984f2aadcc2b81913fd2ae96f105-us10
